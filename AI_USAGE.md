@@ -1,7 +1,7 @@
 # AI usage
 Model used: CLAUDE (anthropic) 
 General Use: Asked for explanations/fixes when I got error messages
-#Questions/Prompts  I asked
+# Questions/Prompts  I asked
 
 ##  1. conda couldn't find the enviornment mamba created
 My prompt: I pasted my full terminal session from (mamba create, conda activate, python scripts/analyze.py and conda env export commands with their outputs and asked for an explanation of what went wrong):

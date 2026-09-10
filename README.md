@@ -1,4 +1,4 @@
-#hds-practical LAB 1
+# hds-practical LAB 1
 Creating a Reporducible Computing Setup!
 This lab puts the last two weeks together. Reproducibility starts before you write any analysis code: 
 it starts with being able to say exactly what software, versions, and dependencies your work requires,
@@ -39,7 +39,7 @@ hasn't been activated yet", choose option `1`.
 
 ## How this Repo was built
 
-##Python Setup 
+## Python Setup 
 
 1. First create a place in the hds-practical directory for Lab 1 and move scripts to the directory in terminal
 
@@ -63,7 +63,7 @@ df = pd.read_csv("data/patients.csv")
 print(df.describe())
 PYEOF
 ```
-#script reads patients.csv and prints summary stats
+script reads patients.csv and prints summary stats
 
 3. create enviornment, activate it, run script, and export enviornment file 
 ```bash
@@ -81,13 +81,13 @@ conda env create -f environment.yml
 conda activate hds-practical
 python scripts/analyze.py
 ```
-#this deletes the enviornment, recreates it fron enviornment.yml only and reruns the scriptand checks to see if outputs match
+this deletes the enviornment, recreates it fron enviornment.yml only and reruns the scriptand checks to see if outputs match
 
 5. Confirm enviornment is registered with conda
 ```bash
 conda info --envs
 ```
-##Setup for Renv in R
+## Setup for Renv in R
  1. Create R analysis script
 ```bash
 cat > scripts/analyze.R << 'REOF'
@@ -118,7 +118,7 @@ however I can see how using conda or mamba will be useful in the future. This is
 is better multi-language projects or system-level dependencies. Also important to note to not use conda 
 and mamba at the same time if they are in different directories.
 
-##Docker Setup to  containerize
+## Docker Setup to  containerize
 1. Write the Dockerfile 
 ```bash
 cat > Dockerfile << 'DOCKEREOF'
