@@ -1,2 +1,7 @@
 *.log
 secrets.txt
+__pycache__/
+.venv/
+renv/library/
+.DS_Store
+.Rhistory

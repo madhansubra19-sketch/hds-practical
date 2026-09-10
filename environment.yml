@@ -1,0 +1,7 @@
+name: hds-practical
+channels:
+  - conda-forge
+dependencies:
+  - pandas=2.2
+  - python=3.12
+
